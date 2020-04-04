@@ -1,37 +1,103 @@
 [
 	{
-		"service": "Azure",
+		"service": "Acquia",
 		"cname": [
-			".azurewebsites.net",
-			".cloudapp.net",
-			".cloudapp.azure.com",
-			".trafficmanager.net",
-			".blob.core.windows.net",
-			".azure-api.net",
-			".azurehdinsight.net",
-			".azureedge.net"
+			"acquia-test.co"
+		],
+		"fingerprint": [
+			"The site you are looking for could not be found."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Airee.ru",
+		"cname":[
+			"airee.ru"
+		],
+		"fingerprint": [
+			"Ошибка 402. Сервис Айри.рф не оплачен"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Apigee",
+		"cname": [
+			"-portal.apigee.net"
 		],
 		"fingerprint": [],
 		"nxdomain": true
 	},
 	{
-		"service": "GitHub",
-		"cname": [
-			"github.io",
-			"github.com"
-		],
-		"fingerprint": [
-			"There isn't a GitHub Pages site here."
-		],
-		"nxdomain": false
-	},
-	{
-		"service": "S3 Bucket",
+		"service": "AWS/S3",
 		"cname": [
 			"s3-website"
 		],
 		"fingerprint": [
 			"The specified bucket does not exist"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "BigCartel",
+		"cname": [
+			"bigcartel.com"
+		],
+		"fingerprint": [
+			"<h1>Oops! We could&#8217;t find that page.</h1>"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Bitbucket",
+		"cname": [
+			"bitbucket.io"
+		],
+		"fingerprint": [
+			"Repository not found"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Brightcove",
+		"cname": [
+			"bcvp0rtal.com",
+			"brightcovegallery.com",
+			"gallery.video"
+		],
+		"fingerprint": [
+			"<p class=\"bc-gallery-error-code\">Error Code: 404</p>"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Campaign Monitor",
+		"cname": [
+			"createsend.com"
+		],
+		"fingerprint": [
+			"Trying to access your account?"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Cargo Collective",
+		"cname": [
+			"cargocollective.com",
+			"cargo.site"
+		],
+		"fingerprint": [
+			"404 Not Found"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Digital Ocean",
+		"cname": [
+			"cargocollective.com",
+			"cargo.site"
+		],
+		"fingerprint": [
+			"404 Not Found"
 		],
 		"nxdomain": false
 	},
@@ -46,6 +112,77 @@
 		"nxdomain": false
 	},
 	{
+		"service": "Feedpress",
+		"cname": [
+			"feedpress.me"
+		],
+		"fingerprint": [
+			"The feed has not been found."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Fly.io",
+		"cname": [
+			"shw.io"
+		],
+		"fingerprint": [
+			"Not Found"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Ghost",
+		"cname": [
+			"ghost.io"
+		],
+		"fingerprint": [
+			"The thing you were looking for is no longer here, or never was"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "GitHub",
+		"cname": [
+			"github.io",
+			"github.com"
+		],
+		"fingerprint": [
+			"There isn't a GitHub Pages site here."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "HatenaBlog",
+		"cname": [
+			"hatenablog.com"
+		],
+		"fingerprint": [
+			"404 Blog is not found"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Help Juice",
+		"cname": [
+			"helpjuice.com"
+		],
+		"fingerprint": [
+			"We could not find what you're looking for."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Help Scout",
+		"cname": [
+			"helpscoutdocs.com"
+		],
+		"fingerprint": [
+			"No settings were found for this company:"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "Heroku",
 		"cname": [
 			"herokuapp.com",
@@ -55,6 +192,21 @@
 			"herokucdn.com/error-pages/no-such-app.html"
 		],
 		"nxdomain": false
+	},
+	{
+		"service": "Microsoft Azure",
+		"cname": [
+			".azurewebsites.net",
+			".cloudapp.net",
+			".cloudapp.azure.com",
+			".trafficmanager.net",
+			".blob.core.windows.net",
+			".azure-api.net",
+			".azurehdinsight.net",
+			".azureedge.net"
+		],
+		"fingerprint": [],
+		"nxdomain": true
 	},
 	{
 		"service": "Pantheon",
@@ -83,16 +235,6 @@
 		],
 		"fingerprint": [
 			"Do you want to register"
-		],
-		"nxdomain": false
-	},
-	{
-		"service": "Ghost",
-		"cname": [
-			"ghost.io"
-		],
-		"fingerprint": [
-			"The thing you were looking for is no longer here, or never was"
 		],
 		"nxdomain": false
 	},
@@ -137,48 +279,6 @@
 		"nxdomain": false
 	},
 	{
-		"service": "Bitbucket",
-		"cname": [
-			"bitbucket.io"
-		],
-		"fingerprint": [
-			"Repository not found"
-		],
-		"nxdomain": false
-	},
-	{
-		"service": "Brightcove",
-		"cname": [
-			"bcvp0rtal.com",
-			"brightcovegallery.com",
-			"gallery.video"
-		],
-		"fingerprint": [
-			"<p class=\"bc-gallery-error-code\">Error Code: 404</p>"
-		],
-		"nxdomain": false
-	},
-	{
-		"service": "BigCartel",
-		"cname": [
-			"bigcartel.com"
-		],
-		"fingerprint": [
-			"<h1>Oops! We could&#8217;t find that page.</h1>"
-		],
-		"nxdomain": false
-	},
-	{
-		"service": "Acquia",
-		"cname": [
-			"acquia-test.co"
-		],
-		"fingerprint": [
-			"The site you are looking for could not be found."
-		],
-		"nxdomain": false
-	},
-	{
 		"service": "Zendesk",
 		"cname": [
 			"zendesk.com"
@@ -202,14 +302,6 @@
 		"service": "MaxCDN",
 		"cname": [
 			".netdna-cdn.com"
-		],
-		"fingerprint": [],
-		"nxdomain": true
-	},
-	{
-		"service": "Apigee",
-		"cname": [
-			"-portal.apigee.net"
 		],
 		"fingerprint": [],
 		"nxdomain": true
