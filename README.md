@@ -52,32 +52,40 @@ After generating a list of all vulnerable subdomains, you can use my [collection
 
 ## Services Checked
 
-- Amazon S3
-- ~~Amazon CloudFront~~ [(no longer vulnerable?)](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
-- Microsoft Azure
-- Heroku
-- GitHub Pages
-- Fastly
-- Pantheon.io
-- Shopify
-- Tumblr
-- WordPress.com
-- Ghost
-- Surge
-- Statuspage
-- Bitbucket Pages
-- UserVoice
-- Zendesk
-- Brightcove
-- Big Cartel
 - Acquia
-- ReadMe.io
-- MaxCDN
+- Airee.ru
+- ~~Amazon CloudFront~~ [(no longer vulnerable?)](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
 - Apigee
+- AWS/S3
+- Big Cartel
+- Bitbucket
+- Brightcove
+- Campaign Monitor
+- Cargo Collective
+- Fastly
+- Feedpress
+- Fly.io
+- Ghost
+- GitHub
+- HatenaBlog
+- Help Juice
+- Help Scout
+- Heroku
+- MaxCDN
+- Microsoft Azure
+- Pantheon.io
+- ReadMe.io
+- Shopify
 - Smugmug
+- Statuspage
+- Surge
+- Tumblr
+- UserVoice
+- WordPress.com
+- Zendesk
+
 
 ## To-Do
 
-- Integrate `sonar.sh` into the main Go script as an option instead of input file.
-- All-in-one Docker image to automatically download the latest FDNS Project Sonar file and check for takeover possibilities. 
-- Have `sonar.sh` pull domains to check for from `fingerprints.json`, instead of hard-coding them.
+- Add a check for NS subdomains (https://0xpatrik.com/subdomain-takeover-ns/)
+- Add Digital Ocean to the list 
