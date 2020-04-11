@@ -60,7 +60,7 @@
 	{
 		"service": "Brightcove",
 		"cname": [
-			"",
+			""
 		],
 		"fingerprint": [
 			"<p class=\"bc-gallery-error-code\">Error Code: 404</p>"
