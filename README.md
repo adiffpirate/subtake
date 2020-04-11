@@ -71,17 +71,26 @@ After generating a list of all vulnerable subdomains, you can use my [collection
 - Help Juice
 - Help Scout
 - Heroku
+- Intercom
+- JetBrains
+- Kinsta
+- LaunchRock
+- Mashery
 - MaxCDN
 - Microsoft Azure
-- Pantheon.io
-- ReadMe.io
+- Pantheon
+- Readme.io
 - Shopify
 - Smugmug
 - Statuspage
-- Surge
+- Strikingly
+- Surge.sh
 - Tumblr
+- Tilda
+- Uptimerobot
 - UserVoice
-- WordPress.com
+- Webflow
+- WordPress
 - Zendesk
 
 
