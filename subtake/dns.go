@@ -11,9 +11,9 @@ import (
 func (s *Subdomain) dns(o *Options) {
 	config := fingerprints(o.Config)
 
-	if o.All {
+	//if o.All {
 		detect(s.Url, o.Output, o.Ssl, o.Verbose, o.Timeout, config)
-	} else {
+	/*} else {
 		if VerifyCNAME(s.Url, config) {
 			detect(s.Url, o.Output, o.Ssl, o.Verbose, o.Timeout, config)
 		}
@@ -32,7 +32,7 @@ func (s *Subdomain) dns(o *Options) {
 				}
 			}
 		}
-	}
+	}*/
 }
 
 func resolve(url string) (cname string) {
