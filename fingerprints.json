@@ -20,6 +20,16 @@
 		"nxdomain": false
 	},
 	{
+		"service": "Anima",
+		"cname":[
+			""
+		],
+		"fingerprint": [
+			"If this is your website and you've just created it, try refreshing in a minute"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "Apigee",
 		"cname": [
 			"-portal.apigee.net"
@@ -78,6 +88,16 @@
 		"nxdomain": false
 	},
 	{
+		"service": "Canny.io",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"There is no such company. Did you enter the right URL?"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "Cargo Collective",
 		"cname": [
 			""
@@ -128,6 +148,16 @@
 		"nxdomain": false
 	},
 	{
+		"service": "Frontify",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"Oops... looks like you got lost"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "Ghost",
 		"cname": [
 			""
@@ -164,6 +194,16 @@
 		],
 		"fingerprint": [
 			"We could not find what you're looking for."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Helprace",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"Admin of this Helprace account needs to set up domain alias"
 		],
 		"nxdomain": false
 	},
@@ -218,6 +258,16 @@
 		"nxdomain": false
 	},
 	{
+		"service": "Landingi",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"404.planet.page.description"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "LaunchRock",
 		"cname": [
 			""
@@ -261,6 +311,16 @@
 		"nxdomain": true
 	},
 	{
+		"service": "Ngrok",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			".ngrok.io not found"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "Pantheon",
 		"cname": [
 			""
@@ -287,6 +347,16 @@
 		],
 		"fingerprint": [
 			"Sorry, this shop is currently unavailable."
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "SmartJobBoard ",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"This job board website is either expired or its domain name is invalid."
 		],
 		"nxdomain": false
 	},
@@ -345,6 +415,16 @@
 		],
 		"fingerprint": [
 			"Please renew your subscription"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Unbounce",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"The requested URL was not found on this server."
 		],
 		"nxdomain": false
 	},
