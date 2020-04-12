@@ -55,38 +55,46 @@ After generating a list of all vulnerable subdomains, you can use my [collection
 - Acquia
 - Airee.ru
 - ~~Amazon CloudFront~~ [(no longer vulnerable?)](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
+- Anima
 - Apigee
 - AWS/S3
 - Big Cartel
 - Bitbucket
 - Brightcove
 - Campaign Monitor
+- Canny.io
 - Cargo Collective
 - Fastly
 - Feedpress
 - Fly.io
+- Frontify
 - Ghost
 - GitHub
 - HatenaBlog
 - Help Juice
+- Helprace
 - Help Scout
 - Heroku
 - Intercom
 - JetBrains
 - Kinsta
 - LaunchRock
+- Landingi
 - Mashery
 - MaxCDN
 - Microsoft Azure
+- Ngrok
 - Pantheon
 - Readme.io
 - Shopify
+- SmartJobBoard
 - Smugmug
 - Statuspage
 - Strikingly
 - Surge.sh
 - Tumblr
 - Tilda
+- Unbounce
 - Uptimerobot
 - UserVoice
 - Webflow
