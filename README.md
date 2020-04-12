@@ -71,8 +71,8 @@ After generating a list of all vulnerable subdomains, you can use my [collection
 - Ghost
 - GitHub
 - HatenaBlog
-- Help Juice
 - Helprace
+- Help Juice
 - Help Scout
 - Heroku
 - Intercom
