@@ -16,7 +16,6 @@ Requires [Go](https://golang.org/dl/).
 
 - `-f to-check.txt` is the path to your list of subdomains to check. One subdomain per line. **Required.**
 - `-t` is the number of threads to use. (Default: 10)
-- `-a` skips CNAME check and sends requests to every URL. (Default: false, but **Highly recommended.**) 
 - `-timeout` is the number seconds to wait before timing out a check (Default: 10).
 - `-o results.txt` is a filename to output results to. If the file ends with `.json`, subtake will automatically switch to JSON format.
 - `-v` enables verbose mode. Displays all checks including not vulnerable URLs.
