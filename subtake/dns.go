@@ -10,29 +10,7 @@ import (
 
 func (s *Subdomain) dns(o *Options) {
 	config := fingerprints(o.Config)
-
-	//if o.All {
-		detect(s.Url, o.Output, o.Ssl, o.Verbose, o.Timeout, config)
-	/*} else {
-		if VerifyCNAME(s.Url, config) {
-			detect(s.Url, o.Output, o.Ssl, o.Verbose, o.Timeout, config)
-		}
-
-		if o.Verbose {
-			result := fmt.Sprintf("[Not Vulnerable] %s\n", s.Url)
-			c := "\u001b[31;1mNot Vulnerable\u001b[0m"
-			out := strings.Replace(result, "Not Vulnerable", c, -1)
-			fmt.Printf(out)
-
-			if o.Output != "" {
-				if chkJSON(o.Output) {
-					writeJSON("", s.Url, o.Output)
-				} else {
-					write(result, o.Output)
-				}
-			}
-		}
-	}*/
+	detect(s.Url, o.Output, o.Ssl, o.Verbose, o.Timeout, config)
 }
 
 func resolve(url string) (cname string) {
