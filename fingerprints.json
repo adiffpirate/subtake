@@ -188,22 +188,22 @@
 		"nxdomain": false
 	},
 	{
-		"service": "Help Juice",
-		"cname": [
-			""
-		],
-		"fingerprint": [
-			"We could not find what you're looking for."
-		],
-		"nxdomain": false
-	},
-	{
 		"service": "Helprace",
 		"cname": [
 			""
 		],
 		"fingerprint": [
 			"Admin of this Helprace account needs to set up domain alias"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "Help Juice",
+		"cname": [
+			""
+		],
+		"fingerprint": [
+			"We could not find what you're looking for."
 		],
 		"nxdomain": false
 	},
@@ -351,7 +351,7 @@
 		"nxdomain": false
 	},
 	{
-		"service": "SmartJobBoard ",
+		"service": "SmartJobBoard",
 		"cname": [
 			""
 		],
